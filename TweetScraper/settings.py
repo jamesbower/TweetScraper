@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # !!! # Crawl responsibly by identifying yourself (and your website/e-mail) on the user-agent
-USER_AGENT = 'TweetScraper'
+USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:61.0) Gecko/20100101 Firefox/61.0'
 
 # settings for spiders
 BOT_NAME = 'TweetScraper'
@@ -26,5 +26,3 @@ MONGODB_PORT = 27017
 MONGODB_DB = "TweetScraper"        # database name to save the crawled data
 MONGODB_TWEET_COLLECTION = "tweet" # collection name to save tweets
 MONGODB_USER_COLLECTION = "user"   # collection name to save users
-
-
